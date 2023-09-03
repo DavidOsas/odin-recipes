@@ -1,0 +1,44 @@
+* {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(100, 100, 200, 0.5);
+}
+
+#container {
+    font-family: monospace;
+    position: absolute;
+    margin: auto;
+    left: 1;
+    right: 1;
+    bottom: 1;
+    top: 1;
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.9), rgba(150, 150, 150, 0.4));
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#main-header {
+    font-weight: 900;
+}
+
+.recipe-links {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.recipe-links:visited {
+    color: rgba(200, 1, 1, 0.9);
+}
+
+#recipe-list {
+    list-style: none;
+}
