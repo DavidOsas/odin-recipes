@@ -5,11 +5,11 @@
 }
 
 body {
+    font-family: monospace;
     background: rgba(100, 100, 200, 0.5);
 }
 
 #container {
-    font-family: monospace;
     position: absolute;
     margin: auto;
     left: 1;
@@ -41,4 +41,19 @@ body {
 
 #recipe-list {
     list-style: none;
+}
+
+#main-header {
+    font-weight: 900;
+}
+
+.sub-header {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.image {
+    height: 10rem;
+    width: 10rem;
+    border: solid rgba(0, 0, 0, 0.4) 2px;
 }
